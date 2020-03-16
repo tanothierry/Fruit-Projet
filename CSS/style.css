@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/* Main Content *******************************/
+
+.main-content{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+
+}
+
+.box-content{
+    width: 40%;
+    min-height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex: 40%;
+    background-color: white;
+    margin: 20px;
+    min-height: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 13px 3px rgba(0,0,0,0.13);
+}
+
+.card-illustration,
+.card-illustration1,
+.card-illustration2,
+.card-illustration3{
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-illustration{
+    background-color: #b0a3ef;
+    background-image: url('../images/ananas.png');
+}
+
+.card-illustration1{
+    background-color: #feeaae;
+    background-image: url('../images/banane.png');
+}
+.card-illustration2{
+    background-color: #74f7fb;
+    background-image: url('../images/coconut.png');
+}
+
+.card-illustration3{
+    background-color: #fecbae;
+    background-image: url('../images/orange.png');
+}
+
+.card-info{
+    padding: 18px 20px 22px;
+}
+
+.card-info_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.card-info_price > div{
+    background-color: black;
+    padding: 6px 15px;
+    border-radius: 30px;
+}
+
+.card-info_price > div a{
+    background-color: black;
+    padding: 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
